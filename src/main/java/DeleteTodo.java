@@ -9,7 +9,7 @@ public class DeleteTodo {
                 Connection conn = Database.getConnection();
                 PreparedStatement stmt = conn.prepareStatement(sql)) {
 
-            stmt.setInt(1, 2);
+            stmt.setInt(1, 4);
             int rows = stmt.executeUpdate();
             System.out.println(rows + " ligne(s) supprimée(s).");
 
