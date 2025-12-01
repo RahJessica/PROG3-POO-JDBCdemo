@@ -4,7 +4,7 @@ import java.sql.DriverManager;
 // ouverture d'une session de connexion à la base de données postgresql
 public class JDBCtestConnection {
     public static void main(String[] args) {
-        String url  = "jdbc:postgresql://localhost:5432/postgres";
+        String url  = "jdbc:postgresql://localhost:5432/todo_jdbc_demo";
         String user = "postgres";
         String password = "userSQL$";
 
