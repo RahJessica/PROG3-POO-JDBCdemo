@@ -14,7 +14,7 @@ public class CreateTodo {
             stmt.setBoolean(4, false);
 
             int rows = stmt.executeUpdate();
-            System.out.println(rows + " ligne(s) insérée(s).");
+            System.out.println(rows + " ligne(s) insérée(s)");
 
         } catch (Exception e) {
             e.printStackTrace();
